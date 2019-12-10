@@ -16,7 +16,7 @@ def directors_totals(nds)
       dir_name = nds[out_index][:name]
       gross_total += nds[out_index][:movies][next_index][:worldwide_gross]
        next_index += 1
-      binding.pry
+      #binding.pry
     end
     result[dir_name] = gross_total
     out_index += 1
